@@ -55,3 +55,66 @@ footer a{
     color: black;
     gap: 20px;
 }
+img{
+    height: 80px;
+    width: 80px;
+}
+section{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-content: center;
+    background-color: #99DBF5;
+    width: 300px;
+    margin-left: 500px;
+    border-radius: 20px;
+
+
+}
+
+form{
+    background-color: #99DBF5;
+    border: none;
+    height: 500px;
+  
+}
+form h2{
+    margin-top: 30px;
+}
+fieldset{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
+
+}
+input,select,option{
+display: block;
+width:100%;
+font-family:"Times New Roman", Times, serif ;
+font-size: medium;
+border: 2px solid #99DBF5 ;
+border-radius: 5px;
+
+
+}
+#submitBtn{
+    border: 0;
+    background: #99DBF5;
+    padding: .5rem;
+    color: white;
+    width: auto ;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background: #4F709C;
+    }
+    border: 2px solid white ;}
+label{
+    font-size: 18px;
+    font-family:"Times New Roman", Times, serif;
+}
+h3,h4{
+    color: rgb(1, 16, 43);
+    
+}
